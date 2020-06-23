@@ -29,8 +29,13 @@ switch (inLowerCaseCountry) {
         userCountry = 'Ямайка';
         prise = 80;
         break;
+        
+    default:
+    console.log('Invalid subscription type');
 }
 
 if (userCountry) {
     alert(`Доставка в ${userCountry} буде коштувати ${prise} кредитів`);
-} else alert('У вашій країні доставка недоступна');
+} else {
+    alert('У вашій країні доставка недоступна');
+}

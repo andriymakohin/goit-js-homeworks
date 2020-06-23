@@ -14,5 +14,7 @@ if (totalDroid === null) {
     console.log(
       `Ви купили ${totalDroid} дроїдів, на рахунку залишилося ${credits} кредитів.`,
     );
-  } else console.log('Недостатньо коштів на рахунку!');
+  } else {
+    console.log('Недостатньо коштів на рахунку!');
+  }
 }

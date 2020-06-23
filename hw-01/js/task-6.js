@@ -13,4 +13,4 @@ while (true) {
     }
     input = Number(input);
     total += input;
-} alert(`Загальна сума чисел дорівнює ${total}`)
+} alert(`Загальна сума чисел дорівнює ${total}`);
