@@ -12,8 +12,16 @@ while (true) {
     }
 
     if (input === null) {
-        for (let i = 0; i < numbers.length; i += 1) {
-            total += numbers[i];
+        // for (let i = 0; i < numbers.length; i += 1) {
+        //     total += numbers[i];
+        // }
+        if (numbers.length > 0) {
+            for (let number of numbers) {
+                total += number;
+            }
+        } else {
+            alert('Ви не ввели жодного числа');
+            continue;
         }
         break;
     }
