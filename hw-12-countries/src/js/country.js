@@ -4,8 +4,9 @@ import refs from './refs';
 import articlesOneCountry from '../templates/templatesOneCountry.hbs';
 import countryList from '../templates/templatesManyCountry.hbs';
 
+import '@pnotify/core/dist/PNotify.css';
 import '@pnotify/core/dist/BrightTheme.css';
-const { error } = require('@pnotify/core');
+const { error } = require('@pnotify/core/dist/PNotify.js');
 let debounce = require('lodash.debounce');
 
 refs.searchForm.addEventListener(
@@ -36,7 +37,7 @@ function countrySearchInputHandler(e) {
             }
         })
         .catch(Error => {
-            Error({
+            error({
                 text: 'You must enter query parameters!',
             });
             console.log(Error);
