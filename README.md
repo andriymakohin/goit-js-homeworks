@@ -13,3 +13,4 @@
 - [module-11 promisification](https://andriymakohin.github.io/goit-js-homeworks/hw-11/hw-11-promisification "homeworck-11 promisification")
 - [module-11 timer](https://andriymakohin.github.io/goit-js-homeworks/hw-11/hw-11-timer "homeworck-11 timer")
 - [module-12-countries](https://andriymakohin.github.io/goit-js-homeworks/hw-12-countries/build "homeworck-12-countries")
+- [module-13-image-finder](https://andriymakohin.github.io/goit-js-homeworks/hw-13-image-finder/build "homeworck-13-image-finder")
